@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django project settings
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+
+# Ignore secret keys
+*.secret_key
+*.settings_secret.json
+
+# Ignore environment specific files
+env/
+.env
+/.env.*
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.swp
+
+# Ignore dependencies
+venv/
+pipenv/
